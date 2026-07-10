@@ -1,30 +1,20 @@
-# Jinyoung Yeo — GitHub Pages
+# Jinyoung Yeo Website
 
-This is a simple single-page academic website.
+A compact, single-page academic website.
 
-## Files
+## Upload
+Upload these files to the root of `jinyoungyeo.github.io`:
 
-- `index.html`: page content
-- `style.css`: design
-- `profile.jpg`: profile photo (optional)
+- `index.html`
+- `style.css`
+- `profile.jpg` (your own photo)
 
-## Upload instructions
+## Important edits
+Search `index.html` for `href="#"` and replace each placeholder with the real URL.
 
-1. Create a public GitHub repository named `jinyoungyeo.github.io`.
-2. Upload `index.html` and `style.css`.
-3. Upload your photo as `profile.jpg`.
-4. Go to `Settings → Pages`.
-5. Select `Deploy from a branch`.
-6. Select `main` and `/ (root)`.
-7. Visit `https://jinyoungyeo.github.io`.
+## Deploy
+GitHub → Settings → Pages
 
-## Before publishing
-
-Replace every `href="#"` link in `index.html` with the correct URL for:
-
-- Google Scholar
-- GitHub
-- CV
-- papers
-- code
-- project pages
+- Source: Deploy from a branch
+- Branch: main
+- Folder: / (root)
