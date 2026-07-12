@@ -189,11 +189,9 @@ h3 {
 }
 
 .papers > li {
-  display: grid;
-  grid-template-columns: 48px 1fr;
-  gap: 16px;
-  padding: 15px 0 14px;
-  border-bottom: 1px solid #eceef0;
+    display:block;
+    padding:15px 0;
+    border-bottom:1px solid #eceef0;
 }
 
 .paper-year {
@@ -256,11 +254,6 @@ h3 {
     font-size:12.5px;
     line-height:1.55;
 }
-
-.paper-content{
-    min-width:0;
-}
-
 
 .two-column {
   display: grid;
