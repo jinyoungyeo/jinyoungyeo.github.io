@@ -82,14 +82,9 @@ h1 {
 }
 
 .contact {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0 8px;
-  margin-bottom: 18px;
-  font-size: 12.5px;
+ margin-bottom: 12px;
+  color: #42454a;
 }
-
-.contact span { color: #aaa; }
 
 .bio { margin-bottom: 9px; }
 
