@@ -326,3 +326,22 @@ footer {
     gap: 10px;
   }
 }
+
+
+.industry-paper {
+  position: relative;
+  padding-right: 150px;   /* 로고가 들어갈 공간 */
+  min-height: 100px;
+}
+
+.industry-logo {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 90px;
+  height: auto;
+
+  object-fit: contain;
+}
